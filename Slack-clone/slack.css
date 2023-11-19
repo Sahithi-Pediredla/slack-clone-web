@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/*slack_clone_before_login*/
+.slack-logo {
+    width: 127px;
+    height: 40px;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.nav_bg {
+    background-color: #611f69;
+}
+
+.search-bar {
+    color: white;
+    font-size: 20px;
+    margin: auto;
+}
+
+.dropdown-font {
+    color: black;
+    font-weight: 500;
+}
+
+.custom-nav-button1 {
+    color: white;
+    background-color: transparent;
+    width: 110px;
+    height: 45px;
+    border-width: 2px;
+    border-radius: 8px;
+    margin-right: 10px;
+    font-size: 15px;
+    border-color: white;
+}
+
+.custom-nav-button2 {
+    color: #611f69;
+    background-color: white;
+    width: 120px;
+    height: 45px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: #d0b200;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.slack-home-bg {
+    background-color: #611f69;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.main-heading {
+    font-size: 50px;
+}
+
+.main-para {
+    font-size: 20px;
+}
+
+.sign_up-button {
+    border-radius: 8px;
+    text-align: center;
+    height: 50px;
+    font-size: 19px;
+}
+
+.google-icon {
+    background-color: transparent;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+}
+
+/* sign-up-css*/
+.slack-signup-home-bg {
+    background-color: #b8d6de;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.form-heading {
+    font-family: "Roboto";
+    font-size: 36px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.error-message {
+    color: red;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.gender-field-heading {
+    color: #212529;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/*login code...*/
+.slack-login-home-bg {
+    background-color: gray;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+/*slack-home-page*/
+
+.slack-home-bg {
+    background-color: #611f69;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.main-heading {
+    font-size: 50px;
+}
+
+.main-para {
+    font-size: 20px;
+}
+
+.sign_up-button {
+    border-radius: 8px;
+    text-align: center;
+    height: 50px;
+    font-size: 19px;
+}
+
+.google-icon {
+    background-color: transparent;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+}
+
+/*Channel-section.............*/
+
+
+/*header...*/
+.header {
+    background-color: #4a154b;
+    height: 60px;
+    padding: 10px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.logo-img {
+    width: 100%;
+}
+
+.search {
+    flex: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.search-input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.logout {
+    width: 100px;
+}
+
+.logout-button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #e01e5a;
+    color: white;
+    font-size: 16px;
+}
+
+/*side_bar1.....*/
+.sidebar1 {
+    background-color: #350d36;
+    width: 12%;
+    height: 100vh;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.icons {
+    color: white;
+    font-size: 20px;
+}
+
+/*sidebar-2...Channels*/
+.sidebar2 {
+    background-color: #a595a6;
+    width: 35%;
+    height: 100vh;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.modal-button,
+.send-direct-message-button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: #4a154b;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.new-channel {
+    flex: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 80%;
+    height: 150px;
+    border: 2px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.new-channel-container {
+    margin-top: 15px;
+}
+
+.description-box {
+    background-color: white;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e7eb;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px;
+
+}
+
+.channels ul,
+.direct-messages ul {
+    list-style-type: none;
+}
+
+.channels li,
+.direct-messages li {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.channels li.active,
+.direct-messages li.active {
+    background-color: #1164a3;
+}
+
+.channels li:hover,
+.direct-messages li:hover {
+    background-color: #3c1e70;
+    color: white;
+}
+
+/*messages-container..*/
+.message-chat-container {
+    width: 53%;
+    height: 100vh;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.message-header {
+    background-color: #4a154b;
+    height: 40px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.message-heading {
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    margin: 2px;
+}
+
+#messages {
+    width: 80%;
+    height: 100vh;
+    overflow-y: auto;
+    padding: 10px;
+    position: relative;
+}
+
+#messageInputContainer {
+    align-items: center;
+    margin-top: 10px;
+}
+
+#messageInput {
+    width: 87%;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.send-button {
+    width: 13%;
+    padding: 5px;
+}
+
+.message {
+    margin-bottom: 10px;
+}
